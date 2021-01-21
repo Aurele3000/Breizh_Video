@@ -1,0 +1,140 @@
+*{
+    box-sizing: border-box;
+}
+
+body{
+    font-size: 16px;
+    color: #000;
+    font-family: 'Trebuchet MS', Arial, sans-serif;
+    margin: 0;
+}
+
+.topbar{
+    position: fixed;
+    top: 0;
+    right: 0;
+    left: 0;
+    width: 100%;
+    height: 70px;
+    background: -moz-linear-gradient(49deg, rgba(255, 255, 255, 0.5) 18%, rgba(16, 227, 255, 0.5) 100%) !important;
+    box-shadow: 1px 1px 2px rgb(131, 131, 131);
+    }
+
+.topbar nav{
+    float: right;
+    margin-top: 20px;
+
+}
+.topbar nav a{
+    color: #000;
+    text-decoration: none;
+    font-size: 25px;
+    font-weight: 500;
+    text-shadow: 1px 1px 2px rgb(131, 131, 131);
+    margin: 30px;
+    margin-top: 50%;
+}
+
+.topbar nav a:hover{
+    color: darkred;
+}
+
+.topbar nav img{
+    width: 50px;
+    height: auto;
+    margin-right: 20px;
+    
+    float: right;
+    display: none;
+}
+
+.topbar .logo{
+    float: left;
+    margin: 5px 20px;
+    filter: drop-shadow(1px 1px 2px rgb(131, 131, 131));
+}
+
+.fond img{
+    width: 100%;
+    height: auto;
+    box-shadow: 1px 1px 2px rgb(131, 131, 131);
+}
+
+.fond2 img{
+    display: none;
+    width: 100%;
+    height: auto;
+    box-shadow: 1px 1px 2px rgb(131, 131, 131);
+    
+}
+
+.texte {
+    position: absolute;
+    text-align: center;
+    font-size: 50px;
+    top: 40%;
+    left: 50%;
+}
+
+.texte .page-films {
+    color: rgb(235, 253, 255);
+    transform: translate(-50%, -50%);
+    text-shadow: rgb(63, 63, 63) 1px 0 10px;
+}
+
+.basdepage {
+    position: relative;
+    text-align: center;
+}
+
+.basdepage .foot{
+    font-weight: 100;
+    font-size: 15px;
+    text-shadow: 1px 1px 2px rgb(131, 131, 131);
+}
+
+@media screen and (max-width: 950px) {
+    .topbar nav a {
+        font-size: 15px;
+        font-weight: 300;
+        margin: 20px;
+    }
+    .texte {
+        position: absolute;
+        text-align: center;
+        font-size: 40px;
+        top: 30%;
+        left: 50%;
+    }
+}
+
+
+@media screen and (max-width: 740px) {
+    .topbar nav a {
+        display: none;
+    }
+    .texte {
+        position: absolute;
+        text-align: center;
+        font-size: 30px;
+        top: 30%;
+        left: 50%;
+    }
+    .basdepage .foot{
+        position: absolute;
+        top: -110px;
+        font-weight: 70px;
+        font-size: 15px;
+        text-shadow: 1px 1px 2px rgb(131, 131, 131);
+        color: rgb(255, 255, 255);
+    }
+    .topbar nav img{
+        display: block;
+    }
+    .fond2 img{
+        display: block;
+    }
+    .fond img{
+        display: none;
+    }
+}
