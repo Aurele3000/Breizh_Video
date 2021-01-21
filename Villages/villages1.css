@@ -70,27 +70,29 @@ body{
 
 .texte {
     position: absolute;
-    text-align: center;
     font-size: 50px;
-    top: 40%;
-    left: 50%;
+    top: 5%;
+    float: left;
+    margin-left: 2%;  
 }
 
-.texte .page-evenements {
+.texte .page-villages {
     color: rgb(235, 253, 255);
-    transform: translate(-50%, -50%);
     text-shadow: rgb(63, 63, 63) 1px 0 10px;
 }
 
 .basdepage {
     position: relative;
     text-align: center;
+    text-shadow: 1px 1px 2px rgb(131, 131, 131);
+    color: rgb(255, 255, 255);
 }
 
 .basdepage .foot{
     font-weight: 100;
     font-size: 15px;
     text-shadow: 1px 1px 2px rgb(131, 131, 131);
+    color: rgb(0, 0, 0);
 }
 
 @media screen and (max-width: 950px) {
@@ -101,10 +103,10 @@ body{
     }
     .texte {
         position: absolute;
-        text-align: center;
         font-size: 40px;
-        top: 30%;
-        left: 50%;
+        top: 5%;
+        float: left;
+        margin-left: 2%;  
     }
 }
 
@@ -115,10 +117,10 @@ body{
     }
     .texte {
         position: absolute;
-        text-align: center;
         font-size: 30px;
-        top: 30%;
-        left: 50%;
+        top: 5%;
+        float: left;
+        margin-left: 2%;  
     }
     .basdepage .foot{
         position: absolute;

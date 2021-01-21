@@ -85,11 +85,14 @@ body{
 .basdepage {
     position: relative;
     text-align: center;
+    text-shadow: 1px 1px 2px rgb(131, 131, 131);
+    color: rgb(255, 255, 255);
 }
 
 .basdepage .foot{
     font-weight: 100;
     font-size: 15px;
+    color:#000;
     text-shadow: 1px 1px 2px rgb(131, 131, 131);
 }
 
