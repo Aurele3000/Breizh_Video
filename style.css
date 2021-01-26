@@ -64,8 +64,7 @@ body{
     display: none;
     width: 100%;
     height: auto;
-    box-shadow: 1px 1px 2px rgb(131, 131, 131);
-    
+    box-shadow: 1px 1px 2px rgb(131, 131, 131);   
 }
 
 .texte {
@@ -85,15 +84,15 @@ body{
 .basdepage {
     position: relative;
     text-align: center;
-    text-shadow: 1px 1px 2px rgb(131, 131, 131);
-    color: rgb(255, 255, 255);
+    color: #EFF2F3;
+    box-shadow: 1px 1px 2px rgb(131, 131, 131);
 }
 
 .basdepage .foot{
     font-weight: 100;
     font-size: 15px;
-    color:#000;
     text-shadow: 1px 1px 2px rgb(131, 131, 131);
+    color: rgb(0, 0, 0);
 }
 
 @media screen and (max-width: 950px) {
@@ -119,8 +118,8 @@ body{
     .texte {
         position: absolute;
         text-align: center;
-        font-size: 30px;
-        top: 30%;
+        font-size: 40px;
+        top: 50%;
         left: 50%;
     }
     .basdepage .foot{

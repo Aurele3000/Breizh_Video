@@ -1,11 +1,14 @@
+@import url('https://fonts.googleapis.com/css2?family=Prompt:ital,wght@0,100;0,500;0,700;0,800;1,100;1,500;1,700;1,800&display=swap');
+
 *{
     box-sizing: border-box;
 }
 
+
 body{
     font-size: 16px;
     color: #000;
-    font-family: 'Trebuchet MS', Arial, sans-serif;
+    font-family: 'Prompt', Arial, sans-serif;
     margin: 0;
 }
 
@@ -81,7 +84,7 @@ body{
     text-shadow: rgb(63, 63, 63) 1px 0 10px;
 }
 
-.basdepage {
+/*.basdepage {
     position: relative;
     text-align: center;
     text-shadow: 1px 1px 2px rgb(131, 131, 131);
@@ -93,7 +96,91 @@ body{
     font-size: 15px;
     text-shadow: 1px 1px 2px rgb(131, 131, 131);
     color: rgb(0, 0, 0);
+}*/
+.form{
+    position: relative;
+    margin-top: 80px;
+    width: 800px;
+    height: 400px;
+    display: flex;
+    font-size: 30px;
+    align-items: center;
+    justify-content: center;
+    flex-wrap: wrap;
+    box-shadow: 0 2px 3px 0 #ababab;
+    background-color: #EFF2F3;
+    /*max-width: 800px;*/
+    padding: 0;       
+    margin-left: auto;
+    margin-right: auto 
+
 }
+
+.form div{
+    width: 300px;
+    padding-bottom: unset;
+    margin-bottom: 10px;
+
+}
+
+.form div:nth-child(1){
+    width: 100%;
+    text-align: center;
+}
+
+.evenements {
+    background: linear-gradient(90deg, rgba(255, 255, 255, 0.5), #10e3ff7a);
+    height: 70px;
+    width: auto;
+    color: rgb(0, 0, 0);
+    font-size: 14px;
+    padding: 0;
+}
+
+.lieu, .date, .films{
+    width: 280px;
+    border:0 none;
+    outline:0;
+    flex-direction: column;
+    position: center;
+}
+
+label{
+    display: block;
+
+}
+#checkbox {
+    display: flex;
+    font-size: small;
+
+}
+.agree{
+    display: grid;
+    grid-template-columns: 10% 90% ;
+}
+
+input[type=lieu], input[type=date], input[type=films], input[type=text] {
+    box-shadow: 0 2px 3px 0 #ababab;
+    background: linear-gradient(90deg, rgba(255, 255, 255, 0.5), #10e3ff7a);
+    border: none;
+    width: 280px;
+    margin-bottom: 15px;
+    height: 40px !important;
+    border-radius: 2rem; 
+}
+.bouton {
+    color: rgb(0, 0, 0);
+    background: linear-gradient(90deg, rgba(255, 255, 255, 0.5), #10e3ff7a);
+    box-shadow: 0 2px 3px 0 #ababab;
+    border: none;
+    border-radius: 2rem;
+    height: 40px !important;
+    width: 280px;
+    margin-bottom: 15px;
+
+}
+
+
 
 @media screen and (max-width: 950px) {
     .topbar nav a {
